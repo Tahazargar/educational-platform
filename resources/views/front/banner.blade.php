@@ -206,13 +206,13 @@
                 </figure>
                 <!-- Icon logos START -->
                 <div class="p-2 bg-white shadow rounded-3 position-absolute top-50 start-0 translate-middle-y mt-n7 d-none d-sm-block">
-                    <img src="assets/images/client/science.svg" alt="Icon">
+                    <img src="{{ Vite::asset('resources/assets/images/client/science.svg') }}" alt="Icon">
                 </div>
                 <div class="p-2 bg-white shadow rounded-3 position-absolute top-0 end-0 me-5">
-                    <img src="assets/images/client/angular.svg" alt="Icon">
+                    <img src="{{ Vite::asset('resources/assets/images/client/angular.svg') }}" alt="Icon">
                 </div>
                 <div 	class="p-2 bg-white shadow rounded-3 position-absolute top-50 end-0 translate-middle-y mt-5 ms-5 d-none d-lg-block z-index-9">
-                    <img src="assets/images/client/figma.svg" alt="Icon">
+                    <img src="{{ Vite::asset('resources/assets/images/client/figma.svg') }}" alt="Icon">
                 </div>
                 <!-- Icon logos END -->
 
@@ -235,27 +235,38 @@
                     <!-- Avatar group -->
                     <ul class="avatar-group mb-0">
                         <li class="avatar avatar-sm">
-                            <img class="avatar-img rounded-circle border-white" src="assets/images/avatar/01.jpg" alt="avatar">
+                            <img class="avatar-img rounded-circle border-white"
+                                 src="{{ Vite::asset('resources/assets/images/avatar/01.jpg') }}"
+                                 alt="avatar">
                         </li>
                         <li class="avatar avatar-sm">
-                            <img class="avatar-img rounded-circle border-white" src="assets/images/avatar/02.jpg" alt="avatar">
+                            <img class="avatar-img rounded-circle border-white"
+                                 src="{{ Vite::asset('resources/assets/images/avatar/02.jpg') }}"
+                                 alt="avatar">
                         </li>
                         <li class="avatar avatar-sm">
-                            <img class="avatar-img rounded-circle border-white" src="assets/images/avatar/03.jpg" alt="avatar">
+                            <img class="avatar-img rounded-circle border-white"
+                                 src="{{ Vite::asset('resources/assets/images/avatar/03.jpg') }}"
+                                 alt="avatar">
                         </li>
                         <li class="avatar avatar-sm">
-                            <img class="avatar-img rounded-circle border-white" src="assets/images/avatar/04.jpg" alt="avatar">
+                            <img class="avatar-img rounded-circle border-white"
+                                 src="{{ Vite::asset('resources/assets/images/avatar/04.jpg') }}"
+                                 alt="avatar">
                         </li>
                         <li class="avatar avatar-sm">
                             <div class="avatar-img rounded-circle border-white bg-primary">
-                                <span class="text-white position-absolute top-50 start-50 translate-middle small">1K+</span>
+            <span class="text-white position-absolute top-50 start-50 translate-middle small">
+                1K+
+            </span>
                             </div>
                         </li>
                     </ul>
+
                 </div>
                 <!-- Image -->
                 <div class="position-relative">
-                    <img src="assets/images/element/07.png" alt="">
+                    <img src="{{ Vite::asset('resources/assets/images/element/07.png') }}" alt="">
                 </div>
             </div>
             <!-- Right content END -->
